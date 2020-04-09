@@ -47,11 +47,11 @@ public class Query extends Connector{
     }
 
 
-    void queryByData (String nameAndData){
+    void queryByData (String sql){
 
         ResultSet rs = null;
 
-        String que = "select * from eip_member where "+  nameAndData;
+        String que = "select * from eip_member where "+  sql;
         try {
             if(sts == null){
                 sts=con.createStatement();

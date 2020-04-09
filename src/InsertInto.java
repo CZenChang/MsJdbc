@@ -4,9 +4,7 @@ import java.util.Date;
 
 public class InsertInto extends Connector{
 
-    InsertInto(){
-        super();
-    }
+
 
     void insert(String[] data){
 
